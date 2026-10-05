@@ -93,36 +93,17 @@ let keranjang = JSON.parse(localStorage.getItem("keranjang")) || [];
 
 Menampilkan halaman utama aplikasi kasir yang berisi form tambah barang, keranjang belanja, dan bagian pembayaran.
 
-**Gambar:**
-> Masukkan screenshot tampilan awal di sini.
+### 2. Menambahkan Barang
 
-### 2. Form Tambah Barang
-
-Menampilkan proses memasukkan nama barang, harga satuan, dan jumlah barang sebelum ditambahkan ke keranjang.
-
-**Gambar:**
-> Masukkan screenshot form tambah barang di sini.
+Menampilkan proses pengisian nama barang, harga satuan, dan jumlah barang sebelum dimasukkan ke keranjang.
 
 ### 3. Keranjang Belanja
 
-Menampilkan barang yang sudah ditambahkan beserta harga, jumlah, subtotal, dan tombol untuk menghapus barang.
+Menampilkan barang yang sudah ditambahkan ke keranjang beserta harga, jumlah, subtotal, dan tombol hapus.
 
-**Gambar:**
-> Masukkan screenshot keranjang belanja di sini.
+### 4. Pembayaran, Diskon, dan Kembalian
 
-### 4. Diskon dan Total Pembayaran
-
-Menampilkan total belanja, diskon 10% jika memenuhi syarat, serta total akhir yang harus dibayar.
-
-**Gambar:**
-> Masukkan screenshot bagian pembayaran di sini.
-
-### 5. Kembalian
-
-Menampilkan hasil perhitungan kembalian berdasarkan uang yang dibayarkan oleh pembeli.
-
-**Gambar:**
-> Masukkan screenshot kembalian di sini.
+Menampilkan total belanja, diskon, total akhir, uang yang dibayarkan, serta hasil kembalian.
 
 ---
 
