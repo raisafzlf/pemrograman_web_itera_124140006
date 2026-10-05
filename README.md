@@ -121,3 +121,10 @@ Menampilkan total belanja, diskon, total akhir, uang yang dibayarkan, serta hasi
 ## Tujuan
 
 Tugas ini dibuat untuk menerapkan materi JavaScript yang sudah dipelajari selama praktikum, seperti variabel, kondisi, perulangan, function, event handler, array, manipulasi DOM, dan `localStorage`.
+
+
+## Modul Praktikum
+
+Modul yang digunakan pada Pertemuan 1:
+
+[Modul Pertemuan 1](https://praktikum-paw20262027.vercel.app/pertemuan/1)
