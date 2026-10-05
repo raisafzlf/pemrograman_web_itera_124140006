@@ -92,18 +92,29 @@ let keranjang = JSON.parse(localStorage.getItem("keranjang")) || [];
 ### 1. Tampilan Awal Aplikasi
 
 Menampilkan halaman utama aplikasi kasir yang berisi form tambah barang, keranjang belanja, dan bagian pembayaran.
+<img width="948" height="888" alt="tampilan awal" src="https://github.com/user-attachments/assets/8c23180b-8e2f-47af-a77a-3b4dbc497d07" />
+
+
 
 ### 2. Menambahkan Barang
 
 Menampilkan proses pengisian nama barang, harga satuan, dan jumlah barang sebelum dimasukkan ke keranjang.
+<img width="978" height="481" alt="tambah barang" src="https://github.com/user-attachments/assets/5c5eb02a-c283-423d-9c6f-0b82f97b812b" />
+
+
 
 ### 3. Keranjang Belanja
 
 Menampilkan barang yang sudah ditambahkan ke keranjang beserta harga, jumlah, subtotal, dan tombol hapus.
+<img width="923" height="226" alt="keranjang" src="https://github.com/user-attachments/assets/a3baaa3a-e120-4fee-9f6f-d5d80dde60de" />
+
 
 ### 4. Pembayaran, Diskon, dan Kembalian
 
 Menampilkan total belanja, diskon, total akhir, uang yang dibayarkan, serta hasil kembalian.
+<img width="924" height="388" alt="pembayaran" src="https://github.com/user-attachments/assets/3fb85d6a-95af-4000-be54-5fc01c28f992" />
+
+
 
 ---
 
