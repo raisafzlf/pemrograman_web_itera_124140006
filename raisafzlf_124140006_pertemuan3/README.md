@@ -22,11 +22,11 @@ Project ini dibuat untuk memenuhi tugas praktikum Pemrograman Web.
 
 ## Tampilan Aplikasi
 
-### 1. Halaman Utama
-![Halaman Utama](screenshots/halaman-utama.png)
+### Halaman Utama
+![Halaman Utama](halaman-utama.png)
 
-### 2. Halaman Statistik
-![Halaman Statistik](screenshots/halaman-statistik.png)
+### Halaman Statistik
+![Halaman Statistik](halaman-statistik.png)
 
 ## Cara Menjalankan Aplikasi
 
