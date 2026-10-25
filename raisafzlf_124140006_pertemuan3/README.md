@@ -1,16 +1,61 @@
-# React + Vite
+# Aplikasi Manajemen Buku Pribadi
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Deskripsi
+Aplikasi Manajemen Buku Pribadi merupakan aplikasi berbasis web yang dibuat menggunakan React JS. Aplikasi ini digunakan untuk membantu pengguna mengelola daftar buku dan memantau status membaca dengan tampilan yang sederhana.
 
-Currently, two official plugins are available:
+Project ini dibuat untuk memenuhi tugas praktikum Pemrograman Web.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Fitur Aplikasi
+- Menambahkan dan mengelola data buku.
+- Melihat daftar buku yang tersimpan.
+- Memfilter buku berdasarkan status membaca.
+- Menampilkan statistik buku.
+- Menyimpan data menggunakan Local Storage.
+- Pengujian fungsi statistik menggunakan Vitest.
 
-## React Compiler
+## Teknologi
+- React JS
+- JavaScript
+- HTML dan CSS
+- Vite
+- Vitest
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tampilan Aplikasi
 
-## Expanding the Oxlint configuration
+### 1. Halaman Utama
+![Halaman Utama](screenshots/halaman-utama.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### 2. Halaman Statistik
+![Halaman Statistik](screenshots/halaman-statistik.png)
+
+## Cara Menjalankan Aplikasi
+
+1. Pastikan Node.js sudah terpasang.
+2. Buka terminal pada folder project.
+3. Jalankan perintah berikut untuk menginstal dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Jalankan aplikasi:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Buka alamat lokal yang muncul di terminal menggunakan browser.
+
+## Pengujian
+Untuk menjalankan pengujian, gunakan perintah:
+
+```bash
+npm run test
+```
+
+## Identitas Mahasiswa
+- **Nama:** Raisa Fazila
+- **NIM:** 124140006
+- **Program Studi:** Teknik Informatika
+- **Institusi:** Institut Teknologi Sumatera (ITERA)
+
