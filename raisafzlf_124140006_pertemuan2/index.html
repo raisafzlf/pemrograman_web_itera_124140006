@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Tugas Kuliah</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <h1>Dashboard Tugas Kuliah</h1>
+      <p id="quote" class="quote">Memuat kutipan...</p>
+    </header>
+
+    <section id="stats" class="stats"></section>
+
+    <main class="grid">
+      <form id="taskForm" class="panel" autocomplete="off">
+        <h2 id="formTitle">Tambah tugas</h2>
+        <label>Nama tugas
+          <input id="title" required maxlength="80" placeholder="Contoh: Laporan Praktikum Web">
+        </label>
+        <label>Mata kuliah
+          <input id="course" maxlength="40" placeholder="Contoh: Pemrograman Web">
+        </label>
+        <label>Deadline
+          <input id="deadline" type="date">
+        </label>
+        <div class="row">
+          <button type="submit" id="submitBtn" class="btn primary">Simpan tugas</button>
+          <button type="button" id="cancelBtn" class="btn" hidden>Batal edit</button>
+        </div>
+      </form>
+
+      <section class="panel">
+        <div class="list-head">
+          <h2>Daftar tugas</h2>
+          <div class="filters" id="filters">
+            <button class="chip active" data-filter="all">Semua</button>
+            <button class="chip" data-filter="active">Belum selesai</button>
+            <button class="chip" data-filter="done">Selesai</button>
+          </div>
+        </div>
+        <ul id="taskList" class="tasks"></ul>
+      </section>
+    </main>
+  </div>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
