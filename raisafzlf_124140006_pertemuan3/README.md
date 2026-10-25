@@ -26,7 +26,7 @@ Project ini dibuat untuk memenuhi tugas praktikum Pemrograman Web.
 ![Halaman Utama](halaman-utama.png)
 
 ### Halaman Statistik
-![Halaman Statistik](halaman-statistik.png)
+![Halaman Statistik](halaman-statistika.png)
 
 ## Cara Menjalankan Aplikasi
 
