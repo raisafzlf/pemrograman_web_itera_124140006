@@ -52,7 +52,7 @@ Website ini dibuat untuk membantu mahasiswa mencatat dan mengelola tugas kuliah 
 
 ## Dokumentasi
 
-###Tampilan Aplikasi
+### Tampilan Aplikasi
 ![Tampilan Aplikasia](tampilan-aplikasi.png)
 
 ## Penutup
