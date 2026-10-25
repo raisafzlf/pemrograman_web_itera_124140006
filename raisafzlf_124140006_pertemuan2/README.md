@@ -52,7 +52,8 @@ Website ini dibuat untuk membantu mahasiswa mencatat dan mengelola tugas kuliah 
 
 ## Dokumentasi
 
-
+###Tampilan Aplikasi
+![Tampilan Aplikasia](tampilan-aplikasi.png)
 
 ## Penutup
 Website ini dibuat sebagai latihan penerapan JavaScript ES6+ untuk membuat halaman web interaktif sederhana yang dapat membantu mahasiswa mengelola tugas kuliah.
