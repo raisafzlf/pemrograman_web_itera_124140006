@@ -1,0 +1,181 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f5fc;
+  color: #383044;
+}
+
+.navbar {
+  background: #e6d9f5;
+  padding: 18px 8%;
+  display: flex;
+  gap: 25px;
+}
+
+.navbar a {
+  color: #594477;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 900px;
+  margin: 35px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  margin-bottom: 8px;
+  color: #57416f;
+}
+
+.subtitle {
+  color: #82758e;
+  margin-bottom: 25px;
+}
+
+.book-form,
+.list-section {
+  background: white;
+  padding: 22px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  border: 1px solid #eee5f6;
+}
+
+.book-form label {
+  display: block;
+  margin-top: 14px;
+  margin-bottom: 6px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 11px;
+  border: 1px solid #d8cbe7;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  background: white;
+  color: #383044;
+}
+
+input:focus,
+select:focus {
+  outline: 2px solid #d6c1ee;
+  border-color: #a88bc9;
+}
+
+button {
+  border: none;
+  background: #b99bd8;
+  color: #30223f;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+button:hover {
+  background: #a987cc;
+}
+
+.form-buttons {
+  margin-top: 12px;
+}
+
+.book-filter {
+  display: flex;
+  gap: 12px;
+  margin: 18px 0;
+}
+
+.book-filter input,
+.book-filter select {
+  flex: 1;
+}
+
+.book-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  padding: 16px 0;
+  border-bottom: 1px solid #eee5f6;
+}
+
+.book-card h3 {
+  margin: 0 0 8px;
+}
+
+.book-card p {
+  margin: 0 0 10px;
+  color: #82758e;
+}
+
+.status {
+  font-size: 13px;
+  background: #f0e7fa;
+  color: #674c86;
+  padding: 5px 9px;
+  border-radius: 5px;
+}
+
+.delete-btn {
+  background: #ead1dc;
+  color: #773d56;
+}
+
+.delete-btn:hover {
+  background: #dfb9cb;
+}
+
+.empty {
+  color: #82758e;
+  padding: 15px 0;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin: 25px 0;
+}
+
+.stat-card {
+  background: white;
+  padding: 22px;
+  border-radius: 10px;
+  border: 1px solid #eee5f6;
+}
+
+.stat-card h3 {
+  margin-top: 0;
+  color: #82758e;
+}
+
+.stat-card p {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: #8d6bb2;
+}
+
+@media (max-width: 600px) {
+  .book-filter,
+  .book-card {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+}
