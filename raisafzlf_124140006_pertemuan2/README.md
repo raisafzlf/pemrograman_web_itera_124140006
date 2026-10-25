@@ -1,22 +1,58 @@
-# Dashboard Tugas Kuliah
+# Dashboard Daftar Tugas Kuliah
 
-Aplikasi untuk mencatat tugas kuliah: tambah, edit, hapus, tandai selesai, filter, serta menampilkan cuaca kampus ITERA (Open-Meteo) dan kutipan harian (DummyJSON). Data tersimpan di `localStorage`.
+## Deskripsi
+Website ini dibuat untuk membantu mahasiswa mencatat dan mengelola tugas kuliah agar lebih teratur. Website ini menggunakan HTML, CSS, dan JavaScript.
 
-## Cara menjalankan
-Buka folder di VS Code, klik kanan `index.html` → **Open with Live Server** (wajib, karena memakai `type="module"`).
+## Fitur
+- Menambahkan tugas kuliah (nama tugas, mata kuliah, dan deadline).
+- Menampilkan daftar tugas.
+- Mengedit tugas yang sudah dibuat.
+- Menandai tugas yang sudah selesai.
+- Menghapus tugas.
+- Memfilter tugas: semua, belum selesai, dan selesai.
+- Menampilkan jumlah seluruh tugas, tugas yang belum selesai, dan tugas yang sudah selesai.
+- Menampilkan penanda deadline (hari ini, sisa hari, atau terlambat).
+- Menyimpan data tugas menggunakan localStorage.
+- Menampilkan kutipan motivasi secara acak dari API.
 
-## Screenshot
-![Tampilan aplikasi](screenshot.png)  <!-- ganti dengan screenshot kamu -->
+## Teknologi yang Digunakan
+- HTML untuk membuat struktur halaman.
+- CSS untuk mengatur tampilan website.
+- JavaScript untuk menjalankan fungsi website.
+- LocalStorage untuk menyimpan data tugas.
+- DummyJSON API untuk mengambil kutipan motivasi.
 
-## Fitur ES6+ yang dipakai
-| Fitur | File : baris |
-|---|---|
-| `let` / `const` | js/main.js : (isi baris) |
-| Arrow functions (lebih dari 3) | js/modules/utils.js : (isi baris), js/main.js : (isi baris) |
-| Template literals | js/main.js : (isi baris) |
-| Async/Await + fetch | js/app.js : (isi baris), js/main.js : (isi baris) |
-| Classes (`TaskItem`, `DashboardApp`) | js/app.js : (isi baris) |
-| Destructuring | js/app.js, js/main.js |
-| Spread operator | js/app.js (`[...this.tasks, ...]`, `{ ...this }`) |
-| Modules (import/export) | semua file js |
-| localStorage | js/app.js : (isi baris) |
+## Cara Menjalankan
+1. Download atau clone repository ini.
+2. Buka folder proyek di Visual Studio Code.
+3. Pastikan file `index.html`, `style.css`, `main.js`, `app.js`, `utils.js`, dan `data.js` berada dalam folder yang sama.
+4. Jalankan file `index.html` menggunakan ekstensi Live Server (jangan dibuka dengan double-click karena memakai `type="module"`).
+5. Website siap digunakan.
+
+## Penerapan JavaScript ES6+
+- `let` dan `const` untuk membuat variabel.
+- `class` untuk membuat objek tugas dan mengelola aplikasi.
+- Arrow function untuk membuat fungsi.
+- Template literals untuk menampilkan informasi tugas dan kutipan.
+- `async/await` untuk mengambil kutipan motivasi dari API.
+- Destructuring untuk mengambil data dari objek.
+- Spread operator untuk memperbarui data tugas tanpa mengubah data lama.
+- ES Modules (`import` dan `export`) untuk memisahkan kode ke beberapa file.
+- `localStorage` untuk menyimpan data tugas.
+
+## Referensi Baris Kode
+- Deklarasi variabel (`let` dan `const`): bagian awal `main.js` dan `app.js`.
+- Class `TaskItem` dan `DashboardApp`: `app.js`.
+- Arrow function: `utils.js` serta fungsi `render`, `renderTask`, `resetForm`, dan `deadlineLabel` di `main.js`.
+- Template literals: fungsi `renderTask` dan `render` di `main.js`.
+- Async/await: fungsi `fetchQuote()` di `app.js` dan `loadExternal()` di `main.js`.
+- Destructuring: `main.js` dan `app.js`, misalnya pada `const { id } = li.dataset`.
+- Spread operator: method `add()`, `toggle()`, dan `update()` di `app.js`.
+- LocalStorage: fungsi `save()` dan `load()` di `app.js`.
+
+## Dokumentasi
+
+
+
+## Penutup
+Website ini dibuat sebagai latihan penerapan JavaScript ES6+ untuk membuat halaman web interaktif sederhana yang dapat membantu mahasiswa mengelola tugas kuliah.
