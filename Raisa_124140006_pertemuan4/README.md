@@ -30,8 +30,8 @@ python main.py
 
 ## Screenshot Hasil Eksekusi
 ### Soal 1
-![Soal 1](screenshots/soal1.png)
+![Soal 1](soal1.png)
 ### Soal 2
-![Soal 2](screenshots/soal2.png)
+![Soal 2](soal2.png)
 ### Soal 3
-![Soal 3](screenshots/soal3.png)
+![Soal 3](soal3.png)
